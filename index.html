@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de senha</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 class="tittle">Gerador de senhas</h1>
+    <input class="text" type="text" id="senhaInput" readonly />
+    <button
+      class="button-btn"
+      onclick="gerarSenha()"
+      placeholder="your password"
+    >
+      gerar senha
+    </button>
+    <button class="copy" id="copyPassword" onclick="copyPassword()">
+      Copiar senha
+    </button>
+    <input
+      class="digite-aqui"
+      type="text"
+      placeholder="digite aqui a senha copiada"
+    />
+    <script src="js/script.js"></script>
+  </body>
+</html>
